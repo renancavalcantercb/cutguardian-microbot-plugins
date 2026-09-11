@@ -1,0 +1,19 @@
+# Arquivos locais e de IDE
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Artefatos gerados; distribuir JARs pelas releases do GitHub
+.gradle/
+build/
+dist/
+*.class
+*.jar
+*.log
+
+# Configuracoes locais
+.env
+.env.*
+!.env.example
