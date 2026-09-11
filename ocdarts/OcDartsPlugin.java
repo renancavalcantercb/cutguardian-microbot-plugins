@@ -24,7 +24,7 @@ import net.runelite.client.plugins.microbot.util.inventory.Rs2ItemModel;
     name = "[OC] Darts",
     description = "Combine feathers and selected dart tips once per click in the game view. Hold Shift for normal clicks.",
     tags = {"one click", "oc", "fletching", "darts"},
-    authors = {"Renan"},
+    authors = {"cutguardian"},
     version = OcDartsPlugin.version,
     minClientVersion = "2.6.22",
     enabledByDefault = PluginConstants.DEFAULT_ENABLED,
@@ -32,7 +32,7 @@ import net.runelite.client.plugins.microbot.util.inventory.Rs2ItemModel;
 )
 public class OcDartsPlugin extends Plugin
 {
-    static final String version = "1.0.0";
+    static final String version = "1.0.1";
     static final int FEATHER_ID = 314;
 
     @Inject

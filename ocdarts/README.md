@@ -1,5 +1,7 @@
 # [OC] Darts
 
+Author: **cutguardian**. Version: **1.0.1**.
+
 Select a dart type, open your inventory, and click in the game view to use a feather
 on the selected dart tips. Each click issues one item combination. There is no
 timer, automatic repetition, banking, or queued backlog of clicks.
@@ -28,8 +30,9 @@ IDs and required levels follow the supplied table:
 
 All types use feathers (item ID **314**).
 
-Build from Microbot-Hub using `./gradlew OcDartsPluginJar -PpluginList=OcDartsPlugin`.
-See the [repository README](../README.md) for copying these sources into the Hub.
+Run `./build.cmd` from the repository root to build through Microbot-Hub and
+install `OcDartsPlugin.jar` into `%USERPROFILE%/.runelite/microbot-plugins`.
+See the [repository README](../README.md) for build options.
 
 Manual validation: enable with feathers and selected tips; click the game view
 once and verify material consumption, then wait and verify no further plugin
