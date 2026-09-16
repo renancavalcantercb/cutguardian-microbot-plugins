@@ -1,0 +1,126 @@
+﻿{
+    "className":  "net.runelite.client.plugins.microbot.farmingbounceprobe.FarmingBounceProbe",
+    "count":  1,
+    "results":  [
+                    {
+                        "tiles":  [
+                                      {
+                                          "tile":  "WorldPoint(x=3050, y=3305, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  3,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3050, y=3306, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  3,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3050, y=3307, plane=0)",
+                                          "walkable":  false,
+                                          "flags":  131328
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3050, y=3308, plane=0)",
+                                          "walkable":  false,
+                                          "flags":  131328
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3050, y=3309, plane=0)",
+                                          "walkable":  false,
+                                          "flags":  131328
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3051, y=3305, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  2,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3051, y=3306, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  2,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3051, y=3307, plane=0)",
+                                          "walkable":  false,
+                                          "flags":  131328
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3051, y=3308, plane=0)",
+                                          "walkable":  false,
+                                          "flags":  131328
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3051, y=3309, plane=0)",
+                                          "walkable":  false,
+                                          "flags":  131328
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3052, y=3305, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  1,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3052, y=3306, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  1,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3052, y=3307, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  2,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3052, y=3308, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  3,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3052, y=3309, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  4,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3053, y=3305, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  0,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3053, y=3306, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  1,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3053, y=3307, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  2,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3053, y=3308, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  3,
+                                          "flags":  0
+                                      },
+                                      {
+                                          "tile":  "WorldPoint(x=3053, y=3309, plane=0)",
+                                          "walkable":  true,
+                                          "distance":  4,
+                                          "flags":  0
+                                      }
+                                  ],
+                        "player":  "WorldPoint(x=3053, y=3305, plane=0)",
+                        "timestamp":  "2026-09-11T15:25:55.291463100Z"
+                    }
+                ]
+}

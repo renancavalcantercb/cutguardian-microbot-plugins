@@ -1,0 +1,110 @@
+[
+    {
+        "version":  "0.9.0",
+        "runner":  "Run supplies ready: 11 saplings",
+        "work":  "Approaching Gnome Stronghold tree",
+        "selectedPatch":  "GNOME_TREE",
+        "pending":  "none",
+        "position":  "WorldPoint(x=2469, y=3446, plane=0)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271314,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271314,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "5987":  9,
+                          "5350":  1,
+                          "952":  1,
+                          "554":  99,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  98,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:48:35.547296900Z"
+    },
+    {
+        "version":  "0.9.0",
+        "runner":  "Run supplies ready: 11 saplings",
+        "work":  "Approaching Gnome Stronghold tree",
+        "selectedPatch":  "GNOME_TREE",
+        "pending":  "none",
+        "position":  "WorldPoint(x=2459, y=3438, plane=0)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271320,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271320,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "5987":  9,
+                          "5350":  1,
+                          "952":  1,
+                          "554":  99,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  98,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:48:41.546327200Z"
+    },
+    {
+        "version":  "0.9.0",
+        "runner":  "Run supplies ready: 11 saplings",
+        "work":  "Approaching Gnome Stronghold tree",
+        "selectedPatch":  "GNOME_TREE",
+        "pending":  "none",
+        "position":  "WorldPoint(x=2447, y=3428, plane=0)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271332,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271332,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "5987":  9,
+                          "5350":  1,
+                          "952":  1,
+                          "554":  99,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  98,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:48:53.546867800Z"
+    }
+]

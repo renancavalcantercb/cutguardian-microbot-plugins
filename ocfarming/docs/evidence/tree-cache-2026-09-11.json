@@ -1,0 +1,190 @@
+﻿{
+    "className":  "net.runelite.client.plugins.microbot.farmingtreedataprobe.FarmingTreeDataProbe",
+    "count":  1,
+    "results":  [
+                    {
+                        "items":  [
+                                      {
+                                          "name":  "Oak sapling",
+                                          "linkedNote":  12941,
+                                          "note":  -1,
+                                          "id":  5370
+                                      },
+                                      {
+                                          "name":  "Willow sapling",
+                                          "linkedNote":  12942,
+                                          "note":  -1,
+                                          "id":  5371
+                                      },
+                                      {
+                                          "name":  "Maple sapling",
+                                          "linkedNote":  12943,
+                                          "note":  -1,
+                                          "id":  5372
+                                      },
+                                      {
+                                          "name":  "Yew sapling",
+                                          "linkedNote":  12944,
+                                          "note":  -1,
+                                          "id":  5373
+                                      },
+                                      {
+                                          "name":  "Magic sapling",
+                                          "linkedNote":  12945,
+                                          "note":  -1,
+                                          "id":  5374
+                                      },
+                                      {
+                                          "name":  "Spirit sapling",
+                                          "linkedNote":  -1,
+                                          "note":  -1,
+                                          "id":  5375
+                                      },
+                                      {
+                                          "name":  "Empty plant pot",
+                                          "linkedNote":  5351,
+                                          "note":  -1,
+                                          "id":  5350
+                                      },
+                                      {
+                                          "name":  "Tomatoes(5)",
+                                          "linkedNote":  5969,
+                                          "note":  -1,
+                                          "id":  5968
+                                      },
+                                      {
+                                          "name":  "Tomatoes(5)",
+                                          "linkedNote":  5968,
+                                          "note":  799,
+                                          "id":  5969
+                                      },
+                                      {
+                                          "name":  "Apples(5)",
+                                          "linkedNote":  5387,
+                                          "note":  -1,
+                                          "id":  5386
+                                      },
+                                      {
+                                          "name":  "Apples(5)",
+                                          "linkedNote":  5386,
+                                          "note":  799,
+                                          "id":  5387
+                                      },
+                                      {
+                                          "name":  "Oranges(5)",
+                                          "linkedNote":  5397,
+                                          "note":  -1,
+                                          "id":  5396
+                                      },
+                                      {
+                                          "name":  "Oranges(5)",
+                                          "linkedNote":  5396,
+                                          "note":  799,
+                                          "id":  5397
+                                      },
+                                      {
+                                          "name":  "Cactus spine",
+                                          "linkedNote":  6017,
+                                          "note":  -1,
+                                          "id":  6016
+                                      },
+                                      {
+                                          "name":  "Cactus spine",
+                                          "linkedNote":  6016,
+                                          "note":  799,
+                                          "id":  6017
+                                      },
+                                      {
+                                          "name":  "Coconut",
+                                          "linkedNote":  5975,
+                                          "note":  -1,
+                                          "id":  5974
+                                      },
+                                      {
+                                          "name":  "Coconut",
+                                          "linkedNote":  5974,
+                                          "note":  799,
+                                          "id":  5975
+                                      }
+                                  ],
+                        "objects":  [
+                                        {
+                                            "id":  8391,
+                                            "name":  "null",
+                                            "sizeX":  3,
+                                            "sizeY":  3,
+                                            "varbit":  4771
+                                        },
+                                        {
+                                            "id":  8390,
+                                            "name":  "null",
+                                            "sizeX":  3,
+                                            "sizeY":  3,
+                                            "varbit":  4771
+                                        },
+                                        {
+                                            "id":  8389,
+                                            "name":  "null",
+                                            "sizeX":  3,
+                                            "sizeY":  3,
+                                            "varbit":  4771
+                                        },
+                                        {
+                                            "id":  8388,
+                                            "name":  "null",
+                                            "sizeX":  3,
+                                            "sizeY":  3,
+                                            "varbit":  4771
+                                        },
+                                        {
+                                            "id":  19147,
+                                            "name":  "null",
+                                            "sizeX":  3,
+                                            "sizeY":  3,
+                                            "varbit":  4771
+                                        },
+                                        {
+                                            "id":  56953,
+                                            "name":  "null",
+                                            "sizeX":  3,
+                                            "sizeY":  3,
+                                            "varbit":  4771
+                                        }
+                                    ],
+                        "npcs":  [
+                                     {
+                                         "name":  "Fayeth",
+                                         "actions":  "[Talk-to, null, Pay, null, Trade]",
+                                         "id":  2681
+                                     },
+                                     {
+                                         "name":  "Treznor",
+                                         "actions":  "[Talk-to, null, Pay, null, Trade]",
+                                         "id":  11957
+                                     },
+                                     {
+                                         "name":  "Heskel",
+                                         "actions":  "[Talk-to, null, Pay, null, Trade]",
+                                         "id":  2679
+                                     },
+                                     {
+                                         "name":  "Alain",
+                                         "actions":  "[Talk-to, null, Pay, null, Trade]",
+                                         "id":  2678
+                                     },
+                                     {
+                                         "name":  "Prissy Scilla",
+                                         "actions":  "[Talk-to, null, Pay, null, Trade]",
+                                         "id":  2687
+                                     },
+                                     {
+                                         "name":  "Aub",
+                                         "actions":  "[Talk-to, null, Pay, null, Trade]",
+                                         "id":  14514
+                                     }
+                                 ],
+                        "level":  15,
+                        "timestamp":  "2026-09-11T19:09:33.894578100Z"
+                    }
+                ]
+}

@@ -1,0 +1,618 @@
+{
+    "schemaVersion":  1,
+    "sourceFile":  "farming_2-2026-09-11_01-53-25.jsonl",
+    "sourceSha256":  "f94553b27364d1bbab27f10888b8e79ade2be381afd4f8ad1a83ee24e0a82218",
+    "description":  "Selected farming events only; omitted fields are not zero or unchanged baselines. NPC click id is a scene index; npcs.id is the definition ID. No account metadata or other-player events included.",
+    "events":  [
+                   {
+                       "tick":  1,
+                       "npcs":  [
+                                    {
+                                        "id":  2665,
+                                        "idx":  16899,
+                                        "n":  "Kragen",
+                                        "acts":  "Talk-to;Pay (north);Pay (south);Trade"
+                                    },
+                                    {
+                                        "id":  0,
+                                        "idx":  16904,
+                                        "n":  "Tool Leprechaun",
+                                        "acts":  "Talk-to;Exchange;Deposit-all"
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  4,
+                       "clicks":  [
+                                      {
+                                          "ct":  16,
+                                          "option":  "Harvest",
+                                          "target":  "Potato",
+                                          "action":  "GAME_OBJECT_FIRST_OPTION",
+                                          "id":  8554,
+                                          "param0":  72,
+                                          "param1":  50
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  6,
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You begin to harvest the allotment."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  7,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  10,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4771,
+                                      "v":  11
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  13,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  16,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  17,
+                       "clicks":  [
+                                      {
+                                          "ct":  13,
+                                          "option":  "Use",
+                                          "target":  "Potato",
+                                          "action":  "WIDGET_TARGET",
+                                          "id":  0,
+                                          "param0":  17,
+                                          "param1":  9764864
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  19,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  22,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  25,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  28,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4771,
+                                      "v":  12
+                                  }
+                              ],
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You have run out of inventory space."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  33,
+                       "clicks":  [
+                                      {
+                                          "ct":  16,
+                                          "option":  "Use",
+                                          "target":  "Potato -\u003e Kragen",
+                                          "action":  "WIDGET_TARGET_ON_NPC",
+                                          "id":  16899,
+                                          "param0":  0,
+                                          "param1":  0
+                                      }
+                                  ],
+                       "dialog":  {
+                                      "dt":  "NPC",
+                                      "name":  "Kragen",
+                                      "text":  "That looks like something that you can make normalcompost out of. Fill up a compost bin with stuff like that,and you\u0027ll eventually have a bin full of compost."
+                                  }
+                   },
+                   {
+                       "tick":  34,
+                       "dialogClosed":  true
+                   },
+                   {
+                       "tick":  41,
+                       "clicks":  [
+                                      {
+                                          "ct":  27,
+                                          "option":  "Use",
+                                          "target":  "Potato",
+                                          "action":  "WIDGET_TARGET",
+                                          "id":  0,
+                                          "param0":  4,
+                                          "param1":  9764864
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  42,
+                       "clicks":  [
+                                      {
+                                          "ct":  28,
+                                          "option":  "Use",
+                                          "target":  "Potato -\u003e Tool Leprechaun",
+                                          "action":  "WIDGET_TARGET_ON_NPC",
+                                          "id":  16904,
+                                          "param0":  0,
+                                          "param1":  0
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  45,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  -22
+                                          },
+                                          {
+                                              "id":  1943,
+                                              "d":  22
+                                          }
+                                      ],
+                       "dialog":  {
+                                      "dt":  "SPRITE",
+                                      "text":  "The leprechaun exchanges your items for banknotes.",
+                                      "item":  1942
+                                  }
+                   },
+                   {
+                       "tick":  46,
+                       "dialogClosed":  true
+                   },
+                   {
+                       "tick":  50,
+                       "clicks":  [
+                                      {
+                                          "ct":  21,
+                                          "option":  "Harvest",
+                                          "target":  "Potato",
+                                          "action":  "GAME_OBJECT_FIRST_OPTION",
+                                          "id":  8554,
+                                          "param0":  76,
+                                          "param1":  50
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  52,
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You begin to harvest the allotment."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  53,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  17,
+                                      "lvl":  4
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4771,
+                                      "v":  3
+                                  }
+                              ],
+                       "chat":  [
+                                    {
+                                        "t":  "GAMEMESSAGE",
+                                        "msg":  "The allotment is now empty."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  54,
+                       "clicks":  [
+                                      {
+                                          "ct":  1,
+                                          "option":  "Use",
+                                          "target":  "Potato seed",
+                                          "action":  "WIDGET_TARGET",
+                                          "id":  0,
+                                          "param0":  18,
+                                          "param1":  9764864
+                                      }
+                                  ],
+                       "chat":  [
+                                    {
+                                        "t":  "GAMEMESSAGE",
+                                        "msg":  "Congratulations, you\u0027ve just advanced your Farming level. You are now level 4."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  55,
+                       "clicks":  [
+                                      {
+                                          "ct":  4,
+                                          "option":  "Use",
+                                          "target":  "Potato seed -\u003e Allotment",
+                                          "action":  "WIDGET_TARGET_ON_GAME_OBJECT",
+                                          "id":  8554,
+                                          "param0":  75,
+                                          "param1":  50
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  57,
+                       "invChanges":  [
+                                          {
+                                              "id":  5318,
+                                              "d":  -3
+                                          }
+                                      ]
+                   },
+                   {
+                       "tick":  60,
+                       "clicks":  [
+                                      {
+                                          "ct":  26,
+                                          "option":  "Pay (north)",
+                                          "target":  "Kragen",
+                                          "action":  "NPC_THIRD_OPTION",
+                                          "id":  16899,
+                                          "param0":  0,
+                                          "param1":  0
+                                      }
+                                  ],
+                       "vb":  [
+                                  {
+                                      "b":  4771,
+                                      "v":  6
+                                  }
+                              ],
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You plant 3 potato seeds in the allotment."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  61,
+                       "clicks":  [
+                                      {
+                                          "ct":  23,
+                                          "option":  "Pay (north)",
+                                          "target":  "Kragen",
+                                          "action":  "NPC_THIRD_OPTION",
+                                          "id":  16899,
+                                          "param0":  0,
+                                          "param1":  0
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  64,
+                       "invChanges":  [
+                                          {
+                                              "id":  6033,
+                                              "d":  -2
+                                          }
+                                      ],
+                       "dialog":  {
+                                      "dt":  "NPC",
+                                      "name":  "Kragen",
+                                      "text":  "That\u0027ll do nicely, sir. Leave it with me - I\u0027ll make surethat patch grows for you."
+                                  },
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You pay the gardener 2 buckets of compost to protect the patch."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  65,
+                       "dialogClosed":  true
+                   },
+                   {
+                       "tick":  66,
+                       "clicks":  [
+                                      {
+                                          "ct":  24,
+                                          "option":  "Harvest",
+                                          "target":  "Potato",
+                                          "action":  "GAME_OBJECT_FIRST_OPTION",
+                                          "id":  8555,
+                                          "param0":  79,
+                                          "param1":  43
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  68,
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You begin to harvest the allotment."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  69,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  4
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4772,
+                                      "v":  11
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  72,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  4
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4772,
+                                      "v":  12
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  75,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  17,
+                                      "lvl":  4
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4772,
+                                      "v":  3
+                                  }
+                              ],
+                       "chat":  [
+                                    {
+                                        "t":  "GAMEMESSAGE",
+                                        "msg":  "The allotment is now empty."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  76,
+                       "clicks":  [
+                                      {
+                                          "ct":  31,
+                                          "option":  "Use",
+                                          "target":  "Potato",
+                                          "action":  "WIDGET_TARGET",
+                                          "id":  0,
+                                          "param0":  5,
+                                          "param1":  9764864
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  78,
+                       "clicks":  [
+                                      {
+                                          "ct":  15,
+                                          "option":  "Use",
+                                          "target":  "Potato -\u003e Kragen",
+                                          "action":  "WIDGET_TARGET_ON_NPC",
+                                          "id":  16899,
+                                          "param0":  0,
+                                          "param1":  0
+                                      }
+                                  ],
+                       "dialog":  {
+                                      "dt":  "NPC",
+                                      "name":  "Kragen",
+                                      "text":  "That looks like something that you can make normalcompost out of. Fill up a compost bin with stuff like that,and you\u0027ll eventually have a bin full of compost."
+                                  }
+                   },
+                   {
+                       "tick":  79,
+                       "dialogClosed":  true
+                   },
+                   {
+                       "tick":  82,
+                       "clicks":  [
+                                      {
+                                          "ct":  1,
+                                          "option":  "Use",
+                                          "target":  "Potato seed",
+                                          "action":  "WIDGET_TARGET",
+                                          "id":  0,
+                                          "param0":  18,
+                                          "param1":  9764864
+                                      },
+                                      {
+                                          "ct":  28,
+                                          "option":  "Use",
+                                          "target":  "Potato seed -\u003e Allotment",
+                                          "action":  "WIDGET_TARGET_ON_GAME_OBJECT",
+                                          "id":  8555,
+                                          "param0":  79,
+                                          "param1":  43
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  83,
+                       "invChanges":  [
+                                          {
+                                              "id":  5318,
+                                              "d":  -3
+                                          }
+                                      ]
+                   },
+                   {
+                       "tick":  86,
+                       "vb":  [
+                                  {
+                                      "b":  4772,
+                                      "v":  6
+                                  }
+                              ],
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You plant 3 potato seeds in the allotment."
+                                    }
+                                ]
+                   }
+               ]
+}

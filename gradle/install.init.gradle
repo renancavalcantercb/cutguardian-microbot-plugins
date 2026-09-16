@@ -1,0 +1,52 @@
+gradle.projectsEvaluated {
+    def hub = gradle.rootProject
+    def pluginClass = hub.findProperty('cutguardianPluginClass') ?: 'OcDartsPlugin'
+    def pluginPackage = hub.findProperty('cutguardianPluginPackage') ?: 'ocdarts'
+    def pluginJar = hub.tasks.named("${pluginClass}Jar")
+
+    // The hub pins the toolchain to Adoptium 11 (gradle/project-config.gradle).
+    // A machine with AdoptOpenJDK 11 — same OpenJDK, the distributor's older
+    // name — fails to resolve that pin. Relax it from here instead of editing
+    // the hub, which is an upstream clone and would conflict on the next pull.
+    def vendorOverride = hub.findProperty('cutguardianJdkVendor')
+    if (vendorOverride) {
+        hub.java.toolchain.vendor.set(org.gradle.jvm.toolchain.JvmVendorSpec."${vendorOverride}")
+        hub.logger.lifecycle("Toolchain vendor: ${vendorOverride}")
+    }
+    def installDir = hub.file(hub.property('cutguardianInstallDir'))
+    def distDir = hub.file(hub.property('cutguardianDistDir'))
+
+    // A dependent task never runs after a failed compilation. Run the copy even
+    // when the JAR is up-to-date, so deleting the installed copy is recoverable.
+    if (hub.findProperty('cutguardianTest') == 'true') {
+        hub.sourceSets.test.java.setIncludes(["net/runelite/client/plugins/microbot/${pluginPackage}/**"])
+    }
+
+    hub.tasks.register('installCutguardianPlugin') {
+        group = 'distribution'
+        description = 'Build the selected cutguardian plugin and optionally install it.'
+        dependsOn pluginJar
+        if (hub.findProperty('cutguardianTest') == 'true') {
+            dependsOn hub.tasks.named('test')
+        }
+        doLast {
+            def artifact = pluginJar.get().archiveFile.get().asFile
+            hub.copy {
+                from artifact
+                into distDir
+            }
+            if (hub.findProperty('cutguardianBuildOnly') != 'true') {
+                hub.copy {
+                    from artifact
+                    into installDir
+                    rename { "${pluginClass}.jar" }
+                }
+                logger.lifecycle("Plugin instalado em: ${new File(installDir, pluginClass + '.jar')}")
+            }
+            logger.lifecycle("JAR: ${new File(distDir, artifact.name)}")
+        }
+    }
+    hub.tasks.register('installOcDarts') {
+        dependsOn 'installCutguardianPlugin'
+    }
+}
