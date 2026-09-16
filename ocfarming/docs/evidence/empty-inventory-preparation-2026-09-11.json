@@ -1,0 +1,58 @@
+﻿[
+    {
+        "version":  "0.8.1",
+        "runner":  "Waiting to prepare run",
+        "target":  "null",
+        "supplies":  {
+                         "banking":  false,
+                         "retryAfter":  0,
+                         "key":  "LUMBRIDGE_TREEVARROCK_TREEFALADOR_TREETAVERLEY_TREEGNOME_TREENEMUS_TREE:OAK:true:100",
+                         "prepared":  false,
+                         "status":  "Waiting to prepare run"
+                     },
+        "bankReady":  false,
+        "bankOpen":  false,
+        "combat":  false,
+        "moving":  false,
+        "snapshotReady":  false,
+        "snapshotBusy":  false,
+        "inventoryNull":  true,
+        "inventoryItems":  {
+
+                           },
+        "animation":  -1,
+        "interacting":  "null",
+        "instanced":  false,
+        "worldTypes":  "[MEMBERS]",
+        "navigationReady":  true,
+        "timestamp":  "2026-09-11T22:46:48.444210400Z"
+    },
+    {
+        "version":  "0.8.1",
+        "runner":  "Waiting to prepare run",
+        "target":  "null",
+        "supplies":  {
+                         "banking":  false,
+                         "retryAfter":  0,
+                         "key":  "LUMBRIDGE_TREEVARROCK_TREEFALADOR_TREETAVERLEY_TREEGNOME_TREENEMUS_TREE:OAK:true:100",
+                         "prepared":  false,
+                         "status":  "Waiting to prepare run"
+                     },
+        "bankReady":  false,
+        "bankOpen":  false,
+        "combat":  false,
+        "moving":  false,
+        "snapshotReady":  false,
+        "snapshotBusy":  false,
+        "inventoryNull":  true,
+        "inventoryItems":  {
+
+                           },
+        "animation":  -1,
+        "interacting":  "null",
+        "instanced":  false,
+        "worldTypes":  "[MEMBERS]",
+        "navigationReady":  true,
+        "timestamp":  "2026-09-11T22:46:54.441808500Z"
+    }
+]

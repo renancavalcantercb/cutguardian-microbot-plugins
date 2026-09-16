@@ -1,0 +1,33 @@
+{
+  "pluginVersion": "0.2.0",
+  "date": "2026-09-11",
+  "timezone": "America/Sao_Paulo",
+  "sources": ["Agent Server on localhost:8081", "local client.log, OcFarming-visits thread", "monitor screenshot", "user report"],
+  "route": {
+    "startedAt": "10:33:43",
+    "start": {"x": 3054, "y": 3306, "plane": 0},
+    "target": {"x": 2671, "y": 3376, "plane": 0},
+    "transports": [
+      {"time": "10:34:00", "type": "TELEPORTATION_MINIGAME", "arrival": {"x": 2659, "y": 3158, "plane": 0}},
+      {"time": "10:34:25", "type": "CHARTER_SHIP", "arrival": {"x": 2792, "y": 3417, "plane": 1}}
+    ],
+    "completedAt": "10:35:25",
+    "completionReason": "rs2walker:completion-condition-met",
+    "completionPosition": {"x": 2683, "y": 3382, "plane": 0},
+    "durationSeconds": 102
+  },
+  "liveCheck": {
+    "checkedAtUtc": "2026-09-11T13:36:12Z",
+    "position": {"x": 2679, "y": 3382, "plane": 0},
+    "region": 10548,
+    "patches": [
+      {"patch": "Ardougne N", "varbit": 4771, "raw": 199, "state": "Potato dead", "source": "live API and overlay"},
+      {"patch": "Ardougne S", "varbit": 4772, "raw": 0, "state": "Weeds", "source": "live API and overlay"},
+      {"patch": "Falador NW", "raw": 15, "state": "Onion growing", "source": "historical overlay", "seenMinutesAgo": 3, "estimatedMinutesRemaining": [8, 18]},
+      {"patch": "Falador SE", "raw": 15, "state": "Onion growing", "source": "historical overlay", "seenMinutesAgo": 3, "estimatedMinutesRemaining": [8, 18]}
+    ],
+    "visitStatus": "Waiting for due patches / retry"
+  },
+  "validated": ["automatic due revisit", "existing walker teleport and ship use", "regional confirmation before reaching exact target", "observed death instead of assuming maturity", "onion recognition", "history separated by region"],
+  "notValidated": ["exact maturation time", "route failure backoff", "manual cancellation during travel", "profile switching", "automatic farming interactions"]
+}

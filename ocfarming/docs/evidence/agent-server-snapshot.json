@@ -1,0 +1,22 @@
+{
+    "capturedAtUtc":  "2026-09-11T05:07:09.9555881Z",
+    "source":  "Agent Server GET requests at 127.0.0.1:8081",
+    "loggedIn":  true,
+    "position":  {
+                     "x":  2672,
+                     "y":  3372,
+                     "plane":  0
+                 },
+    "regionId":  10548,
+    "varbits":  [
+                    {
+                        "varbitId":  4771,
+                        "value":  7
+                    },
+                    {
+                        "varbitId":  4772,
+                        "value":  7
+                    }
+                ],
+    "notes":  "Sequential reads, not an atomic snapshot. Varbits identify local patches only when region and loading conditions are valid. Time Tracking ETA not exposed by the existing queried endpoints."
+}

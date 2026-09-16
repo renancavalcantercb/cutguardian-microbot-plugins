@@ -1,0 +1,58 @@
+[
+    {
+        "version":  "0.9.0",
+        "runner":  "Missing 5 Apple sapling in bag + bank",
+        "target":  "null",
+        "supplies":  {
+                         "retryAfter":  1789269517,
+                         "key":  "GNOME_FRUITCATHERBY_FRUITVILLAGE_FRUITBRIMHAVEN_FRUITKASTORI_FRUIT:OAK:true:100:APPLE:true",
+                         "prepared":  false,
+                         "status":  "Missing 5 Apple sapling in bag + bank",
+                         "banking":  true
+                     },
+        "bankReady":  true,
+        "bankOpen":  true,
+        "combat":  false,
+        "moving":  false,
+        "snapshotReady":  true,
+        "snapshotBusy":  false,
+        "inventoryNull":  false,
+        "inventoryItems":  {
+
+                           },
+        "animation":  -1,
+        "interacting":  "null",
+        "instanced":  false,
+        "worldTypes":  "[MEMBERS]",
+        "navigationReady":  false,
+        "timestamp":  "2026-09-13T03:17:49.678912600Z"
+    },
+    {
+        "version":  "0.9.0",
+        "runner":  "Missing 5 Apple sapling in bag + bank",
+        "target":  "null",
+        "supplies":  {
+                         "retryAfter":  1789269517,
+                         "key":  "GNOME_FRUITCATHERBY_FRUITVILLAGE_FRUITBRIMHAVEN_FRUITKASTORI_FRUIT:OAK:true:100:APPLE:true",
+                         "prepared":  false,
+                         "status":  "Missing 5 Apple sapling in bag + bank",
+                         "banking":  true
+                     },
+        "bankReady":  true,
+        "bankOpen":  true,
+        "combat":  false,
+        "moving":  false,
+        "snapshotReady":  true,
+        "snapshotBusy":  false,
+        "inventoryNull":  false,
+        "inventoryItems":  {
+
+                           },
+        "animation":  -1,
+        "interacting":  "null",
+        "instanced":  false,
+        "worldTypes":  "[MEMBERS]",
+        "navigationReady":  false,
+        "timestamp":  "2026-09-13T03:17:55.673828500Z"
+    }
+]

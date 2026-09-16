@@ -1,0 +1,136 @@
+[
+    {
+        "version":  "0.8.2",
+        "runner":  "Withdraw 1 Spade",
+        "target":  "null",
+        "supplies":  {
+                         "banking":  true,
+                         "retryAfter":  0,
+                         "key":  "LUMBRIDGE_TREEVARROCK_TREEFALADOR_TREETAVERLEY_TREEGNOME_TREENEMUS_TREE:OAK:true:100",
+                         "prepared":  false,
+                         "status":  "Withdraw 1 Rake"
+                     },
+        "bankReady":  true,
+        "bankOpen":  true,
+        "combat":  false,
+        "moving":  false,
+        "snapshotReady":  true,
+        "snapshotBusy":  false,
+        "inventoryNull":  false,
+        "inventoryItems":  {
+                               "952":  1,
+                               "5370":  6,
+                               "5341":  1
+                           },
+        "animation":  -1,
+        "interacting":  "null",
+        "instanced":  false,
+        "worldTypes":  "[MEMBERS]",
+        "navigationReady":  false,
+        "timestamp":  "2026-09-11T22:52:21.503724300Z"
+    },
+    {
+        "version":  "0.8.2",
+        "runner":  "Withdraw 6 Tomatoes(5)",
+        "target":  "null",
+        "supplies":  {
+                         "banking":  true,
+                         "retryAfter":  0,
+                         "key":  "LUMBRIDGE_TREEVARROCK_TREEFALADOR_TREETAVERLEY_TREEGNOME_TREENEMUS_TREE:OAK:true:100",
+                         "prepared":  false,
+                         "status":  "Optional teleport runes"
+                     },
+        "bankReady":  true,
+        "bankOpen":  true,
+        "combat":  false,
+        "moving":  false,
+        "snapshotReady":  true,
+        "snapshotBusy":  false,
+        "inventoryNull":  false,
+        "inventoryItems":  {
+                               "952":  1,
+                               "5969":  6,
+                               "5370":  6,
+                               "5341":  1
+                           },
+        "animation":  -1,
+        "interacting":  "null",
+        "instanced":  false,
+        "worldTypes":  "[MEMBERS]",
+        "navigationReady":  false,
+        "timestamp":  "2026-09-11T22:52:27.480733600Z"
+    },
+    {
+        "version":  "0.8.2",
+        "runner":  "Optional teleport runes",
+        "target":  "null",
+        "supplies":  {
+                         "banking":  true,
+                         "retryAfter":  0,
+                         "key":  "LUMBRIDGE_TREEVARROCK_TREEFALADOR_TREETAVERLEY_TREEGNOME_TREENEMUS_TREE:OAK:true:100",
+                         "prepared":  false,
+                         "status":  "Optional tree removal coins"
+                     },
+        "bankReady":  true,
+        "bankOpen":  true,
+        "combat":  false,
+        "moving":  false,
+        "snapshotReady":  true,
+        "snapshotBusy":  false,
+        "inventoryNull":  false,
+        "inventoryItems":  {
+                               "5969":  6,
+                               "563":  100,
+                               "952":  1,
+                               "554":  100,
+                               "5370":  6,
+                               "555":  100,
+                               "556":  100,
+                               "557":  100,
+                               "5341":  1
+                           },
+        "animation":  -1,
+        "interacting":  "null",
+        "instanced":  false,
+        "worldTypes":  "[MEMBERS]",
+        "navigationReady":  false,
+        "timestamp":  "2026-09-11T22:52:41.902195400Z"
+    },
+    {
+        "version":  "0.8.2",
+        "runner":  "Visiting: Nemus Retreat tree",
+        "target":  "NEMUS_TREE",
+        "supplies":  {
+                         "banking":  false,
+                         "retryAfter":  0,
+                         "key":  "LUMBRIDGE_TREEVARROCK_TREEFALADOR_TREETAVERLEY_TREEGNOME_TREENEMUS_TREE:OAK:true:100",
+                         "prepared":  true,
+                         "status":  "Run supplies ready: 6 saplings"
+                     },
+        "bankReady":  true,
+        "bankOpen":  false,
+        "combat":  false,
+        "moving":  false,
+        "snapshotReady":  true,
+        "snapshotBusy":  false,
+        "inventoryNull":  false,
+        "inventoryItems":  {
+                               "5969":  6,
+                               "995":  1200,
+                               "563":  100,
+                               "952":  1,
+                               "554":  100,
+                               "5370":  6,
+                               "555":  100,
+                               "556":  100,
+                               "557":  100,
+                               "5341":  1
+                           },
+        "animation":  -1,
+        "interacting":  "null",
+        "instanced":  false,
+        "worldTypes":  "[MEMBERS]",
+        "navigationReady":  true,
+        "timestamp":  "2026-09-11T22:52:47.901550700Z"
+    }
+]

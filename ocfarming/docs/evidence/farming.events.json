@@ -1,0 +1,361 @@
+{
+    "schemaVersion":  1,
+    "sourceFile":  "farming-2026-09-11_01-50-23.jsonl",
+    "sourceSha256":  "2725c388dddb8b0928c2eb86237b7697172e1a6658ae48001a5ed4f6ca338167",
+    "description":  "Selected farming events only; omitted fields are not zero or unchanged baselines. NPC click id is a scene index; npcs.id is the definition ID. No account metadata or other-player events included.",
+    "events":  [
+                   {
+                       "tick":  1,
+                       "npcs":  [
+                                    {
+                                        "id":  0,
+                                        "idx":  23244,
+                                        "n":  "Tool Leprechaun",
+                                        "acts":  "Talk-to;Exchange;Deposit-all"
+                                    },
+                                    {
+                                        "id":  2663,
+                                        "idx":  23245,
+                                        "n":  "Elstan",
+                                        "acts":  "Talk-to;Pay (north-west);Pay (south-east);Trade"
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  2,
+                       "clicks":  [
+                                      {
+                                          "ct":  23,
+                                          "option":  "Harvest",
+                                          "target":  "Potato",
+                                          "action":  "GAME_OBJECT_FIRST_OPTION",
+                                          "id":  8550,
+                                          "param0":  53,
+                                          "param1":  79
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  4,
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You begin to harvest the allotment."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  5,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  1
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  8,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  1
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4771,
+                                      "v":  11
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  11,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  1
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  14,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  2
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4771,
+                                      "v":  12
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  15,
+                       "chat":  [
+                                    {
+                                        "t":  "GAMEMESSAGE",
+                                        "msg":  "Congratulations, you\u0027ve just advanced your Farming level. You are now level 2."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  17,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  2
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  20,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  17,
+                                      "lvl":  2
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4771,
+                                      "v":  3
+                                  }
+                              ],
+                       "chat":  [
+                                    {
+                                        "t":  "GAMEMESSAGE",
+                                        "msg":  "The allotment is now empty."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  23,
+                       "clicks":  [
+                                      {
+                                          "ct":  15,
+                                          "option":  "Harvest",
+                                          "target":  "Potato",
+                                          "action":  "GAME_OBJECT_FIRST_OPTION",
+                                          "id":  8551,
+                                          "param0":  58,
+                                          "param1":  76
+                                      }
+                                  ]
+                   },
+                   {
+                       "tick":  26,
+                       "chat":  [
+                                    {
+                                        "t":  "SPAM",
+                                        "msg":  "You begin to harvest the allotment."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  27,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  2
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  30,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  2
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  33,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  2
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4772,
+                                      "v":  11
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  36,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  2
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  39,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  2
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4772,
+                                      "v":  12
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  42,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  2
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  45,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  9,
+                                      "lvl":  3
+                                  }
+                              ]
+                   },
+                   {
+                       "tick":  46,
+                       "chat":  [
+                                    {
+                                        "t":  "GAMEMESSAGE",
+                                        "msg":  "Congratulations, you\u0027ve just advanced your Farming level. You are now level 3."
+                                    }
+                                ]
+                   },
+                   {
+                       "tick":  48,
+                       "invChanges":  [
+                                          {
+                                              "id":  1942,
+                                              "d":  1
+                                          }
+                                      ],
+                       "xp":  [
+                                  {
+                                      "skill":  "Farming",
+                                      "xp":  17,
+                                      "lvl":  3
+                                  }
+                              ],
+                       "vb":  [
+                                  {
+                                      "b":  4772,
+                                      "v":  3
+                                  }
+                              ],
+                       "chat":  [
+                                    {
+                                        "t":  "GAMEMESSAGE",
+                                        "msg":  "The allotment is now empty."
+                                    }
+                                ]
+                   }
+               ]
+}

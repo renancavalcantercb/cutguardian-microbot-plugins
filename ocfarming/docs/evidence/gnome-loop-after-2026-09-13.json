@@ -1,0 +1,208 @@
+[
+    {
+        "version":  "0.9.1",
+        "runner":  "Waiting for due patches",
+        "work":  "Waiting for fresh local patch readings",
+        "selectedPatch":  "null",
+        "pending":  "none",
+        "position":  "WorldPoint(x=2449, y=3426, plane=0)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271346,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271346,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "5987":  9,
+                          "952":  1,
+                          "554":  99,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  98,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:51:10.368441100Z"
+    },
+    {
+        "version":  "0.9.1",
+        "runner":  "Waiting for due patches",
+        "work":  "Approaching Gnome Stronghold fruit",
+        "selectedPatch":  "GNOME_FRUIT",
+        "pending":  "none",
+        "position":  "WorldPoint(x=2460, y=3433, plane=0)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271475,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271475,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "5987":  9,
+                          "952":  1,
+                          "554":  99,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  98,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:51:16.366442400Z"
+    },
+    {
+        "version":  "0.9.1",
+        "runner":  "Waiting for due patches",
+        "work":  "Gnome Stronghold fruit: Protect Apple confirmed",
+        "selectedPatch":  "GNOME_FRUIT",
+        "pending":  "none",
+        "position":  "WorldPoint(x=2473, y=3447, plane=0)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, GNOME_FRUIT=APPLE, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271486,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271486,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "952":  1,
+                          "554":  99,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  98,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:51:28.365467400Z"
+    },
+    {
+        "version":  "0.9.1",
+        "runner":  "Validation: local work complete",
+        "work":  "Gnome Stronghold fruit: Protect Apple confirmed",
+        "selectedPatch":  "GNOME_FRUIT",
+        "pending":  "none",
+        "position":  "WorldPoint(x=13218, y=10896, plane=2)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, GNOME_FRUIT=APPLE, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271508,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271508,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "952":  1,
+                          "554":  99,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  108,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:52:13.966915900Z"
+    },
+    {
+        "version":  "0.9.1",
+        "runner":  "Validation: local work complete",
+        "work":  "Gnome Stronghold fruit: Protect Apple confirmed",
+        "selectedPatch":  "GNOME_FRUIT",
+        "pending":  "none",
+        "position":  "WorldPoint(x=13224, y=10894, plane=2)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, GNOME_FRUIT=APPLE, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271508,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271508,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "952":  1,
+                          "554":  99,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  108,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:52:19.966915700Z"
+    },
+    {
+        "version":  "0.9.1",
+        "runner":  "Validation: local work complete",
+        "work":  "Gnome Stronghold fruit: Protect Apple confirmed",
+        "selectedPatch":  "GNOME_FRUIT",
+        "pending":  "none",
+        "position":  "WorldPoint(x=13224, y=10884, plane=2)",
+        "protected":  "{LUMBRIDGE_TREE=OAK, VARROCK_TREE=OAK, FALADOR_TREE=WILLOW, TAVERLEY_TREE=OAK, GNOME_TREE=WILLOW, NEMUS_TREE=WILLOW, GNOME_FRUIT=APPLE, CATHERBY_FRUIT=APPLE, VILLAGE_FRUIT=APPLE, BRIMHAVEN_FRUIT=APPLE, KASTORI_FRUIT=APPLE}",
+        "observations":  {
+                             "GNOME_TREE":  {
+                                                "label":  "Willow growing",
+                                                "observedAt":  1789271508,
+                                                "raw":  16
+                                            },
+                             "GNOME_FRUIT":  {
+                                                 "label":  "Apple growing",
+                                                 "observedAt":  1789271508,
+                                                 "raw":  8
+                                             }
+                         },
+        "inventory":  {
+                          "563":  94,
+                          "995":  54970,
+                          "952":  1,
+                          "554":  109,
+                          "555":  98,
+                          "5387":  6,
+                          "5371":  6,
+                          "556":  92,
+                          "557":  108,
+                          "5341":  1
+                      },
+        "timestamp":  "2026-09-13T03:52:31.965916200Z"
+    }
+]
