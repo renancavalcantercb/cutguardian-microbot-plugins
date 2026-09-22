@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [ValidateSet('ocdarts', 'ocboltenchant', 'ocfarming', 'ocwalkerprobe')]
+    [ValidateSet('ocdarts', 'ocboltenchant', 'ocfarming', 'ocfarmingew', 'ocwalkerprobe', 'ocbirdhouse')]
     [string]$Plugin = 'ocdarts',
     [string]$HubPath,
     [string]$ClientJar,
@@ -37,7 +37,7 @@ if (-not $PluginsDirectory) {
 }
 $installDirectory = [IO.Path]::GetFullPath($PluginsDirectory)
 
-$pluginClass = @{ ocdarts = 'OcDartsPlugin'; ocboltenchant = 'OcBoltEnchantPlugin'; ocfarming = 'OcFarmingPlugin'; ocwalkerprobe = 'OcWalkerProbePlugin' }[$Plugin]
+$pluginClass = @{ ocdarts = 'OcDartsPlugin'; ocboltenchant = 'OcBoltEnchantPlugin'; ocfarming = 'OcFarmingPlugin'; ocfarmingew = 'OcFarmingEWPlugin'; ocwalkerprobe = 'OcWalkerProbePlugin'; ocbirdhouse = 'OcBirdhousePlugin' }[$Plugin]
 $codeDirectory = Join-Path $hubDirectory "src\main\java\net\runelite\client\plugins\microbot\$Plugin"
 $docsDirectory = Join-Path $hubDirectory "src\main\resources\net\runelite\client\plugins\microbot\$Plugin\docs"
 $testsDirectory = Join-Path $hubDirectory "src\test\java\net\runelite\client\plugins\microbot\$Plugin"
@@ -48,7 +48,10 @@ $noticeFile = Join-Path $PSScriptRoot "$Plugin\THIRD_PARTY_NOTICES.txt"
 if (Test-Path -LiteralPath $noticeFile -PathType Leaf) {
     Copy-Item -LiteralPath $noticeFile -Destination (Split-Path -Parent $docsDirectory)
 }
-Copy-Item -Path (Join-Path $PSScriptRoot "tests\$Plugin\*.java") -Destination $testsDirectory
+$testSourceDir = Join-Path $PSScriptRoot "tests\$Plugin"
+if (Test-Path -LiteralPath $testSourceDir) {
+    Copy-Item -Path (Join-Path $testSourceDir "*.java") -Destination $testsDirectory
+}
 
 $gradleArguments = @(
     'installCutguardianPlugin',
